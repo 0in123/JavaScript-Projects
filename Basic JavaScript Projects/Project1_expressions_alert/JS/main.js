@@ -9,3 +9,8 @@ var B = ("\"I finished watching Yellowstone last night!" // I am using concatena
 var Family = "The Dunbars", Son = "Michael", Mum = "Alison", Dad = "Bob", Dog = "Toby"; // I am declaring multiple variables in one line
 
 5+4 // This is an expression that evaluates to 9
+
+
+function displayDate() {
+  document.getElementById("datebutton").innerHTML = new Date();
+}
